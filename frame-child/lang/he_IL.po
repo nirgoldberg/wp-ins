@@ -1,0 +1,571 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: isp 1.0.0\n"
+"POT-Creation-Date: 2019-09-04 00:14+0300\n"
+"PO-Revision-Date: 2019-09-04 00:16+0300\n"
+"Last-Translator: \n"
+"Language-Team: Nir Goldberg <nir@htmline.com>\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? "
+"2 : 3);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: lang\n"
+"X-Poedit-SearchPathExcluded-2: screenshot.png\n"
+"X-Poedit-SearchPathExcluded-3: style.css\n"
+
+#: functions/acf/acf-config.php:28 functions/acf/acf-config.php:29
+msgid "Site Setup"
+msgstr "הגדרות אתר"
+
+#: functions/acf/acf-config.php:35 functions/acf/acf-config.php:36
+msgid "Theme"
+msgstr "תבנית"
+
+#: functions/acf/acf-config.php:42 functions/acf/acf-config.php:43
+msgid "Header & Footer"
+msgstr "כותרת עליונה ותחתונה"
+
+#: functions/acf/acf-config.php:49 functions/acf/acf-config.php:50
+msgid "Customers"
+msgstr "לקוחות"
+
+#: functions/post-types.php:41 functions/post-types.php:58
+msgid "Insurances"
+msgstr "ביטוחים"
+
+#: functions/post-types.php:42 functions/post-types.php:59
+msgid "Insurance"
+msgstr "ביטוח"
+
+#: functions/post-types.php:43 functions/post-types.php:108
+#: functions/post-types.php:173 functions/post-types.php:238
+#: functions/post-types.php:303
+msgid "Add New"
+msgstr "הוסף חדש"
+
+#: functions/post-types.php:44
+msgid "Add New Insurance"
+msgstr "הוסף ביטוח חדש"
+
+#: functions/post-types.php:45
+msgid "Edit Insurance"
+msgstr "ערוך ביטוח"
+
+#: functions/post-types.php:46
+msgid "New Insurance"
+msgstr "ביטוח חדש"
+
+#: functions/post-types.php:47
+msgid "View Insurance"
+msgstr "הצג ביטוח"
+
+#: functions/post-types.php:48
+msgid "View Insurances"
+msgstr "הצג ביטוחים"
+
+#: functions/post-types.php:49
+msgid "Search Insurances"
+msgstr "חפש ביטוחים"
+
+#: functions/post-types.php:50
+msgid "No Insurances Found"
+msgstr "לא נמצאו ביטוחים"
+
+#: functions/post-types.php:51
+msgid "No Insurances Found in Trash"
+msgstr "לא נמצאו ביטוחים בפח"
+
+#: functions/post-types.php:52
+msgid "Parent Insurance:"
+msgstr "ביטוח הורה:"
+
+#: functions/post-types.php:53
+msgid "All Insurances"
+msgstr "כל הביטוחים"
+
+#: functions/post-types.php:54
+msgid "Insurance Archives"
+msgstr "ארכיוני ביטוחים"
+
+#: functions/post-types.php:55
+msgid "Insurance Attributes"
+msgstr "מאפייני ביטוח"
+
+#: functions/post-types.php:56
+msgid "Insert into Insurance"
+msgstr "הוסף לביטוח"
+
+#: functions/post-types.php:57
+msgid "Uploaded to this Insurance"
+msgstr "הועלה לביטוח זה"
+
+#: functions/post-types.php:60
+msgid "Insurance published"
+msgstr "ביטוח התפרסם"
+
+#: functions/post-types.php:61
+msgid "Insurance published privately"
+msgstr "ביטוח התפרסם באופן פרטי"
+
+#: functions/post-types.php:62
+msgid "Insurance reverted to draft"
+msgstr "ביטוח עודכן כטיוטה"
+
+#: functions/post-types.php:63
+msgid "Insurance scheduled"
+msgstr "ביטוח תוזמן"
+
+#: functions/post-types.php:64
+msgid "Insurance updated"
+msgstr "ביטוח עודכן"
+
+#: functions/post-types.php:106 functions/post-types.php:123
+msgid "Team"
+msgstr "צוות"
+
+#: functions/post-types.php:107 functions/post-types.php:124
+msgid "Team Member"
+msgstr "חבר צוות"
+
+#: functions/post-types.php:109
+msgid "Add New Team Member"
+msgstr "הוסף חבר צוות חדש"
+
+#: functions/post-types.php:110
+msgid "Edit Team Member"
+msgstr "ערוך חבר צוות"
+
+#: functions/post-types.php:111
+msgid "New Team Member"
+msgstr "חבר צוות חדש"
+
+#: functions/post-types.php:112
+msgid "View Team Member"
+msgstr "הצג חבר צוות"
+
+#: functions/post-types.php:113
+msgid "View Team"
+msgstr "הצג צוות"
+
+#: functions/post-types.php:114
+msgid "Search Team Members"
+msgstr "חפש חברי צוות"
+
+#: functions/post-types.php:115
+msgid "No Team Members Found"
+msgstr "לא נמצאו חברי צוות"
+
+#: functions/post-types.php:116
+msgid "No Team Members Found in Trash"
+msgstr "לא נמצאו חברי צוות בפח"
+
+#: functions/post-types.php:117
+msgid "Parent Team Member:"
+msgstr "חבר צוות הורה:"
+
+#: functions/post-types.php:118
+msgid "All Team Members"
+msgstr "כל חברי הצוות"
+
+#: functions/post-types.php:119
+msgid "Team Member Archives"
+msgstr "ארכיוני חברי צוות"
+
+#: functions/post-types.php:120
+msgid "Team Member Attributes"
+msgstr "מאפייני חבר צוות"
+
+#: functions/post-types.php:121
+msgid "Insert into Team Member"
+msgstr "הוסף לחבר צוות"
+
+#: functions/post-types.php:122
+msgid "Uploaded to this Team Member"
+msgstr "הועלה לחבר צוות זה"
+
+#: functions/post-types.php:125
+msgid "Team Member published"
+msgstr "חבר צוות התפרסם"
+
+#: functions/post-types.php:126
+msgid "Team Member published privately"
+msgstr "חבר צוות התפרסם באופן פרטי"
+
+#: functions/post-types.php:127
+msgid "Team Member reverted to draft"
+msgstr "חבר צוות עודכן כטיוטה"
+
+#: functions/post-types.php:128
+msgid "Team Member scheduled"
+msgstr "חבר צוות תוזמן"
+
+#: functions/post-types.php:129
+msgid "Team Member updated"
+msgstr "חבר צוות עודכן"
+
+#: functions/post-types.php:171 functions/post-types.php:188
+#: includes/class-isp-wpmu-site.php:89
+msgid "Press"
+msgstr "פרסומים"
+
+#: functions/post-types.php:172 functions/post-types.php:189
+msgid "Press Item"
+msgstr "פרסום"
+
+#: functions/post-types.php:174
+msgid "Add New Press Item"
+msgstr "הוסף פרסום חדש"
+
+#: functions/post-types.php:175
+msgid "Edit Press Item"
+msgstr "ערוך פרסום"
+
+#: functions/post-types.php:176
+msgid "New Press Item"
+msgstr "פרסום חדש"
+
+#: functions/post-types.php:177
+msgid "View Press Item"
+msgstr "הצג פרסום"
+
+#: functions/post-types.php:178
+msgid "View Press Items"
+msgstr "הצג פרסומים"
+
+#: functions/post-types.php:179
+msgid "Search Press Items"
+msgstr "חפש פרסומים"
+
+#: functions/post-types.php:180
+msgid "No Press Items Found"
+msgstr "לא נמצאו פרסומים"
+
+#: functions/post-types.php:181
+msgid "No Press Items Found in Trash"
+msgstr "לא נמצאו פרסומים בפח"
+
+#: functions/post-types.php:182
+msgid "Parent Press Item:"
+msgstr "פרסום הורה:"
+
+#: functions/post-types.php:183
+msgid "All Press Items"
+msgstr "כל הפרסומים"
+
+#: functions/post-types.php:184
+msgid "Press Item Archives"
+msgstr "ארכיוני פרסומים"
+
+#: functions/post-types.php:185
+msgid "Press Item Attributes"
+msgstr "מאפייני פרסום"
+
+#: functions/post-types.php:186
+msgid "Insert into Press Item"
+msgstr "הוסף לפרסום"
+
+#: functions/post-types.php:187
+msgid "Uploaded to this Press Item"
+msgstr "הועלה לפרסום זה"
+
+#: functions/post-types.php:190
+msgid "Press Item published"
+msgstr "פרסום התפרסם"
+
+#: functions/post-types.php:191
+msgid "Press Item published privately"
+msgstr "פרסום התפרסם באופן פרטי"
+
+#: functions/post-types.php:192
+msgid "Press Item reverted to draft"
+msgstr "פרסום עודכן כטיוטה"
+
+#: functions/post-types.php:193
+msgid "Press Item scheduled"
+msgstr "פרסום תוזמן"
+
+#: functions/post-types.php:194
+msgid "Press Item updated"
+msgstr "פרסום עודכן"
+
+#: functions/post-types.php:236 functions/post-types.php:253
+msgid "News"
+msgstr "חדשות"
+
+#: functions/post-types.php:237 functions/post-types.php:254
+msgid "News Item"
+msgstr "ידיעה"
+
+#: functions/post-types.php:239
+msgid "Add New News Item"
+msgstr "הוסף ידיעה חדשה"
+
+#: functions/post-types.php:240
+msgid "Edit News Item"
+msgstr "ערוך ידיעה"
+
+#: functions/post-types.php:241
+msgid "New News Item"
+msgstr "ידיעה חדשה"
+
+#: functions/post-types.php:242
+msgid "View News Item"
+msgstr "הצג ידיעה"
+
+#: functions/post-types.php:243
+msgid "View News Items"
+msgstr "הצג ידיעות"
+
+#: functions/post-types.php:244
+msgid "Search News Items"
+msgstr "חפש ידיעות"
+
+#: functions/post-types.php:245
+msgid "No News Items Found"
+msgstr "לא נמצאו ידיעות"
+
+#: functions/post-types.php:246
+msgid "No News Items Found in Trash"
+msgstr "לא נמצאו ידיעות בפח"
+
+#: functions/post-types.php:247
+msgid "Parent News Item:"
+msgstr "ידיעה הורה:"
+
+#: functions/post-types.php:248
+msgid "All News Items"
+msgstr "כל הידיעות"
+
+#: functions/post-types.php:249
+msgid "News Item Archives"
+msgstr "ארכיוני ידיעות"
+
+#: functions/post-types.php:250
+msgid "News Item Attributes"
+msgstr "מאפייני ידיעה"
+
+#: functions/post-types.php:251
+msgid "Insert into News Item"
+msgstr "הוסף לידיעה"
+
+#: functions/post-types.php:252
+msgid "Uploaded to this News Item"
+msgstr "הועלה לידיעה זו"
+
+#: functions/post-types.php:255
+msgid "News Item published"
+msgstr "ידיעה התפרסמה"
+
+#: functions/post-types.php:256
+msgid "News Item published privately"
+msgstr "ידיעה התפרסמה באופן פרטי"
+
+#: functions/post-types.php:257
+msgid "News Item reverted to draft"
+msgstr "ידיעה עודכנה כטיוטה"
+
+#: functions/post-types.php:258
+msgid "News Item scheduled"
+msgstr "ידיעה תוזמנה"
+
+#: functions/post-types.php:259
+msgid "News Item updated"
+msgstr "ידיעה עודכנה"
+
+#: functions/post-types.php:301 functions/post-types.php:318
+#: includes/class-isp-wpmu-site.php:84
+msgid "Testimonials"
+msgstr "המלצות"
+
+#: functions/post-types.php:302 functions/post-types.php:319
+msgid "Testimonial"
+msgstr "המלצה"
+
+#: functions/post-types.php:304
+msgid "Add New Testimonial"
+msgstr "הוסף המלצה חדשה"
+
+#: functions/post-types.php:305
+msgid "Edit Testimonial"
+msgstr "ערוך המלצה"
+
+#: functions/post-types.php:306
+msgid "New Testimonial"
+msgstr "המלצה חדשה"
+
+#: functions/post-types.php:307
+msgid "View Testimonial"
+msgstr "הצג המלצה"
+
+#: functions/post-types.php:308
+msgid "View Testimonials"
+msgstr "הצג המלצות"
+
+#: functions/post-types.php:309
+msgid "Search Testimonials"
+msgstr "חפש המלצות"
+
+#: functions/post-types.php:310
+msgid "No Testimonials Found"
+msgstr "לא נמצאו המלצות"
+
+#: functions/post-types.php:311
+msgid "No Testimonials Found in Trash"
+msgstr "לא נמצאו המלצות בפח"
+
+#: functions/post-types.php:312
+msgid "Parent Testimonial:"
+msgstr "המלצה הורה:"
+
+#: functions/post-types.php:313
+msgid "All Testimonials"
+msgstr "כל ההמלצות"
+
+#: functions/post-types.php:314
+msgid "Testimonial Archives"
+msgstr "ארכיוני המלצות"
+
+#: functions/post-types.php:315
+msgid "Testimonial Attributes"
+msgstr "מאפייני המלצה"
+
+#: functions/post-types.php:316
+msgid "Insert into Testimonial"
+msgstr "הוסף להמלצה"
+
+#: functions/post-types.php:317
+msgid "Uploaded to this Testimonial"
+msgstr "הועלה להמלצה זו"
+
+#: functions/post-types.php:320
+msgid "Testimonial published"
+msgstr "המלצה התפרסמה"
+
+#: functions/post-types.php:321
+msgid "Testimonial published privately"
+msgstr "המלצה התפרסמה באופן פרטי"
+
+#: functions/post-types.php:322
+msgid "Testimonial reverted to draft"
+msgstr "המלצה עודכנה כטיוטה"
+
+#: functions/post-types.php:323
+msgid "Testimonial scheduled"
+msgstr "המלצה תוזמנה"
+
+#: functions/post-types.php:324
+msgid "Testimonial updated"
+msgstr "המלצה עודכנה"
+
+#: functions/taxonomies.php:38 functions/taxonomies.php:40
+msgid "Insurance Categories"
+msgstr "קטגוריות ביטוח"
+
+#: functions/taxonomies.php:39
+msgid "Insurance Category"
+msgstr "קטגוריית ביטוח"
+
+#: functions/taxonomies.php:41
+msgid "All Insurance Categories"
+msgstr "כל קטגוריות הביטוח"
+
+#: functions/taxonomies.php:42
+msgid "Edit Insurance Category"
+msgstr "ערוך קטגוריית ביטוח"
+
+#: functions/taxonomies.php:43
+msgid "View Insurance Category"
+msgstr "הצג קטגוריית ביטוח"
+
+#: functions/taxonomies.php:44
+msgid "Update Insurance Category"
+msgstr "עדכן קטגוריית ביטוח"
+
+#: functions/taxonomies.php:45
+msgid "Add New Insurance Category"
+msgstr "הוסף קטגוריית ביטוח חדשה"
+
+#: functions/taxonomies.php:46
+msgid "New Insurance Category Name"
+msgstr "שם קטגוריית ביטוח חדשה"
+
+#: functions/taxonomies.php:47
+msgid "Parent Insurance Category"
+msgstr "קטגוריית ביטוח הורה"
+
+#: functions/taxonomies.php:48
+msgid "Parent Insurance Category:"
+msgstr "קטגוריית ביטוח הורה:"
+
+#: functions/taxonomies.php:49
+msgid "Search Insurance Categories"
+msgstr "חפש קטגוריות ביטוח"
+
+#: functions/taxonomies.php:50
+msgid "Popular Insurance Categories"
+msgstr "קטגוריות ביטוח נפוצות"
+
+#: functions/taxonomies.php:51
+msgid "Separate Insurance Categories with commas"
+msgstr "קטגוריות ביטוח מופרדות בפסיק"
+
+#: functions/taxonomies.php:52
+msgid "Add or remove Insurance Categories"
+msgstr "הוסף או הסר קטגוריות ביטוח"
+
+#: functions/taxonomies.php:53
+msgid "Choose from the most used Insurance Categories"
+msgstr "בחר מתוך קטגוריות הביטוח הנפוצות ביותר"
+
+#: functions/taxonomies.php:54
+msgid "No Insurance Categories found"
+msgstr "לא נמצאו קטגוריות ביטוח"
+
+#: functions/taxonomies.php:55
+msgid "← Back to Insurance Categories"
+msgstr "→ חזרה לקטגוריות ביטוח"
+
+#: header.php:39
+msgid "Call now"
+msgstr "חייגו עכשיו"
+
+#: header.php:57 header.php:92
+msgid "Toggle navigation"
+msgstr ""
+
+#: header.php:70 header.php:105
+#, php-format
+msgid "Please setup Menu <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/class-isp-wpmu-site.php:69
+msgid "Home"
+msgstr "דף הבית"
+
+#: includes/class-isp-wpmu-site.php:74
+msgid "About"
+msgstr "אודות"
+
+#: includes/class-isp-wpmu-site.php:79
+msgid "Products"
+msgstr "תחומי פעילות"
+
+#: includes/class-isp-wpmu-site.php:94
+msgid "Blog"
+msgstr "בלוג"
+
+#: includes/class-isp-wpmu-site.php:99
+msgid "Contact"
+msgstr "יצירת קשר"
+
+#: includes/class-isp-wpmu-site.php:106
+msgid "Primary Menu"
+msgstr "תפריט ראשי"
