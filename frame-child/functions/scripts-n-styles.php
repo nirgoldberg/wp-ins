@@ -53,6 +53,13 @@ function isp_wp_scripts_n_styles() {
 	wp_enqueue_style( 'general',		CSS_DIR . 'general.css',		array(),	VERSION );
 	wp_enqueue_style( 'responsive',		CSS_DIR . 'responsive.css',		array(),	VERSION );
 
+	if ( is_rtl() ) {
+
+		wp_enqueue_style( 'general-rtl',		CSS_DIR . 'general-rtl.css',		array( 'general' ),		VERSION );
+		wp_enqueue_style( 'responsive-rtl',		CSS_DIR . 'responsive-rtl.css',		array( 'responsive' ),	VERSION );
+
+	}
+
 	/**
 	 * Scripts
 	 */
