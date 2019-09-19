@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: isp 1.0.0\n"
-"POT-Creation-Date: 2019-09-04 00:14+0300\n"
-"PO-Revision-Date: 2019-09-04 00:16+0300\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2019-09-19 16:07+0300\n"
+"PO-Revision-Date: 2019-09-19 16:08+0300\n"
+"Last-Translator: Nir Goldberg <nir@htmline.com>\n"
 "Language-Team: Nir Goldberg <nir@htmline.com>\n"
 "Language: he_IL\n"
 "MIME-Version: 1.0\n"
@@ -20,6 +20,10 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-1: lang\n"
 "X-Poedit-SearchPathExcluded-2: screenshot.png\n"
 "X-Poedit-SearchPathExcluded-3: style.css\n"
+
+#: footer.php:34
+msgid "Website Development"
+msgstr "פיתוח ובניית אתרים"
 
 #: functions/acf/acf-config.php:28 functions/acf/acf-config.php:29
 msgid "Site Setup"
@@ -537,11 +541,11 @@ msgstr "→ חזרה לקטגוריות ביטוח"
 msgid "Call now"
 msgstr "חייגו עכשיו"
 
-#: header.php:57 header.php:92
+#: header.php:58 header.php:95
 msgid "Toggle navigation"
 msgstr ""
 
-#: header.php:70 header.php:105
+#: header.php:71 header.php:108
 #, php-format
 msgid "Please setup Menu <a href=\"%s\">here</a>"
 msgstr ""

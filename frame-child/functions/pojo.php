@@ -149,6 +149,7 @@ function isp_pojo_register_customize_sections( $sections = array() ) {
 	$field		= array_search( 'typo_footer_text', array_column( $sections[ $section ][ 'fields' ], 'id' ) );
 	$sections[ $section ][ 'fields' ][ $field ][ 'std' ][ 'size' ]			= '15px';
 	$sections[ $section ][ 'fields' ][ $field ][ 'std' ][ 'family' ]		= $font_family;
+	$sections[ $section ][ 'fields' ][ $field ][ 'std' ][ 'color' ]			= '#FFF';
 
 	// Link
 	$field		= array_search( 'color_footer_link', array_column( $sections[ $section ][ 'fields' ], 'id' ) );
@@ -156,7 +157,7 @@ function isp_pojo_register_customize_sections( $sections = array() ) {
 
 	// Link Hover
 	$field		= array_search( 'color_footer_link_hover', array_column( $sections[ $section ][ 'fields' ], 'id' ) );
-	$sections[ $section ][ 'fields' ][ $field ][ 'std' ]					= $second_color;
+	$sections[ $section ][ 'fields' ][ $field ][ 'std' ]					= '#FFF';
 
 	// Widget Title
 	$field		= array_search( 'typo_footer_widget_text', array_column( $sections[ $section ][ 'fields' ], 'id' ) );

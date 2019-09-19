@@ -509,6 +509,7 @@ acf_add_local_field_group(array(
 	),
 	'active' => true,
 	'description' => '',
+	'modified' => 1567319381,
 ));
 
 acf_add_local_field_group(array(
@@ -557,6 +558,7 @@ acf_add_local_field_group(array(
 	'hide_on_screen' => '',
 	'active' => true,
 	'description' => '',
+	'modified' => 1567319389,
 ));
 
 acf_add_local_field_group(array(
@@ -708,6 +710,7 @@ acf_add_local_field_group(array(
 	'hide_on_screen' => '',
 	'active' => true,
 	'description' => '',
+	'modified' => 1567319453,
 ));
 
 acf_add_local_field_group(array(
@@ -1410,9 +1413,9 @@ acf_add_local_field_group(array(
 						),
 						array(
 							'key' => 'field_5d6b342e978db',
-							'label' => 'Facebook Code',
-							'name' => 'facebook_code',
-							'type' => 'textarea',
+							'label' => 'Facebook Page URL',
+							'name' => 'facebook_page_url',
+							'type' => 'url',
 							'instructions' => '',
 							'required' => 1,
 							'conditional_logic' => 0,
@@ -1423,9 +1426,6 @@ acf_add_local_field_group(array(
 							),
 							'default_value' => '',
 							'placeholder' => '',
-							'maxlength' => '',
-							'rows' => '',
-							'new_lines' => '',
 						),
 					),
 					'min' => '0',
@@ -1521,6 +1521,7 @@ acf_add_local_field_group(array(
 	'hide_on_screen' => '',
 	'active' => true,
 	'description' => '',
+	'modified' => 1567319769,
 ));
 
 endif;

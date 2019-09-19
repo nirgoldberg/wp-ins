@@ -22,6 +22,12 @@
 	}
 }
 
+@media (max-width: 600px) {
+	body:before {
+		content: "600";
+	}
+}
+
 @media (max-width: 480px) {
 	body:before {
 		content: "480";
@@ -158,6 +164,24 @@
 	}
 }
 
+@media (max-width: 600px) {
+
+	/**********/
+	/* footer */
+	/**********/
+
+	#footer {
+
+		/*************/
+		/* copyright */
+		/*************/
+
+		#copyright {
+			line-height: 35px;
+		}
+	}
+}
+
 @media (max-width: 480px) {}
 
 @media (min-width: 1500px) {
@@ -265,6 +289,25 @@
 			}
 		}
 	}
+
+	/**********/
+	/* footer */
+	/**********/
+
+	#footer {
+
+		/******************/
+		/* footer columns */
+		/******************/
+
+		#sidebar-footer {
+			.container {
+				.widget {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
 }
 
 @media (min-width: 992px) {
@@ -286,6 +329,8 @@
 }
 
 @media (min-width: 768px) {}
+
+@media (min-width: 601px) {}
 
 @media (min-width: 481px) {}
 
@@ -544,6 +589,14 @@
 	}
 }
 
+@media (min-width: 601px) and (max-width: 1499px) {}
+
+@media (min-width: 601px) and (max-width: 1199px) {}
+
+@media (min-width: 601px) and (max-width: 991px) {}
+
+@media (min-width: 601px) and (max-width: 767px) {}
+
 @media (min-width: 481px) and (max-width: 1499px) {}
 
 @media (min-width: 481px) and (max-width: 1199px) {}
@@ -551,3 +604,5 @@
 @media (min-width: 481px) and (max-width: 991px) {}
 
 @media (min-width: 481px) and (max-width: 767px) {}
+
+@media (min-width: 481px) and (max-width: 600px) {}

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: isp 1.0.0\n"
-"POT-Creation-Date: 2019-09-04 00:14+0300\n"
+"POT-Creation-Date: 2019-09-19 16:05+0300\n"
 "PO-Revision-Date: 2019-08-31 21:29+0300\n"
 "Last-Translator: \n"
 "Language-Team: Nir Goldberg <nir@htmline.com>\n"
@@ -21,6 +21,10 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-1: lang\n"
 "X-Poedit-SearchPathExcluded-2: screenshot.png\n"
 "X-Poedit-SearchPathExcluded-3: style.css\n"
+
+#: footer.php:34
+msgid "Website Development"
+msgstr ""
 
 #: functions/acf/acf-config.php:28 functions/acf/acf-config.php:29
 msgid "Site Setup"
@@ -538,11 +542,11 @@ msgstr ""
 msgid "Call now"
 msgstr ""
 
-#: header.php:57 header.php:92
+#: header.php:58 header.php:95
 msgid "Toggle navigation"
 msgstr ""
 
-#: header.php:70 header.php:105
+#: header.php:71 header.php:108
 #, php-format
 msgid "Please setup Menu <a href=\"%s\">here</a>"
 msgstr ""

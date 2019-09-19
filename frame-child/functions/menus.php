@@ -10,10 +10,29 @@
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 /**
+ * isp_register_nav_menus
+ *
+ * This function registers additional theme navigation menus
+ *
+ * @param	N/A
+ * @return	N/A
+ */
+function isp_register_nav_menus() {
+
+	register_nav_menus( array(
+		'footer_menu' => 'Footer Menu',
+	) );
+
+}
+add_action( 'after_setup_theme', 'isp_register_nav_menus', 99 );
+
+/**
  * isp_wp_nav_menu_items
  *
- * @param	$items (string)   
- * @param	$args (object)   
+ * This function adds additional menu item (Personal Area System) to primary and primary_mobile menus
+ *
+ * @param	$items (string)
+ * @param	$args (object)
  * @return	(string)
  */
 function isp_wp_nav_menu_items( $items, $args ) {

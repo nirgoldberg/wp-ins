@@ -73,3 +73,43 @@
 		}
 	}
 }
+
+/**********/
+/* footer */
+/**********/
+
+#footer {
+
+	/******************/
+	/* footer columns */
+	/******************/
+
+	#sidebar-footer {
+		.container {
+			.widget {
+
+				/***************/
+				/* menu widget */
+				/***************/
+
+				&.menu {
+					ul {
+						padding-left: 0;
+						padding-right: 20px;
+					}
+				}
+
+				/**************************/
+				/* contact details widget */
+				/**************************/
+
+				&.contact_details {
+					ul {
+						padding-left: 0;
+						padding-right: 20px;
+					}
+				}
+			}
+		}
+	}
+}

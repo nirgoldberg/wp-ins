@@ -9,6 +9,9 @@ require_once( 'functions/config.php' );
 // scripts and styles
 require_once( 'functions/scripts-n-styles.php' );
 
+// theme
+require_once( 'functions/theme.php' );
+
 // WPMU site
 require_once( 'includes/class-isp-wpmu-site.php' );
 

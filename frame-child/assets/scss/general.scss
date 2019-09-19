@@ -206,3 +206,93 @@ body:before {
 		}
 	}
 }
+
+/**********/
+/* footer */
+/**********/
+
+#footer {
+
+	/******************/
+	/* footer columns */
+	/******************/
+
+	#sidebar-footer {
+		.container {
+			border-top: 0;
+
+			.widget {
+				.widget-title {
+					margin-bottom: 20px;
+				}
+
+				/***************/
+				/* menu widget */
+				/***************/
+
+				&.menu {
+					ul {
+						margin-bottom: 0;
+						padding-left: 20px;
+					}
+				}
+
+				/***********************/
+				/* contact form widget */
+				/***********************/
+
+				&.contact_form {
+					form {
+						.form-actions {
+							.pojo-button-wrap {
+								width: 100%;
+
+								.button {
+									width: 100%;
+								}
+							}
+						}
+
+						.error .field {
+							border: 0;
+						}
+
+						.help-inline,
+						.form-message {
+							color: #FFF !important;
+						}
+					}
+				}
+
+				/**************************/
+				/* contact details widget */
+				/**************************/
+
+				&.contact_details {
+					ul {
+						padding-left: 20px;
+
+						li {
+							list-style-type: none;
+
+							.list-icon {
+								width: 25px;
+								display: inline-block;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*************/
+	/* copyright */
+	/*************/
+
+	#copyright {
+		.container {
+			border-top: 0;
+		}
+	}
+}
