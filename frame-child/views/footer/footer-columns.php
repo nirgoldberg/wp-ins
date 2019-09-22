@@ -56,7 +56,7 @@ $column_class = pojo_get_sidebar_columns_class(
 						?>
 
 					</div>
-				</section>
+				</section><!-- .widget.<?php echo $layout; ?> -->
 
 				<?php if ( 2 == $index ) { ?>
 

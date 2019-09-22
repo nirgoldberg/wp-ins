@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: isp 1.0.0\n"
-"POT-Creation-Date: 2019-09-19 16:05+0300\n"
+"POT-Creation-Date: 2019-09-22 05:53+0300\n"
 "PO-Revision-Date: 2019-08-31 21:29+0300\n"
 "Last-Translator: \n"
 "Language-Team: Nir Goldberg <nir@htmline.com>\n"
@@ -217,7 +217,7 @@ msgid "Team Member updated"
 msgstr ""
 
 #: functions/post-types.php:171 functions/post-types.php:188
-#: includes/class-isp-wpmu-site.php:89
+#: includes/class-isp-wpmu-site.php:93
 msgid "Press"
 msgstr ""
 
@@ -386,7 +386,7 @@ msgid "News Item updated"
 msgstr ""
 
 #: functions/post-types.php:301 functions/post-types.php:318
-#: includes/class-isp-wpmu-site.php:84
+#: includes/class-isp-wpmu-site.php:87
 msgid "Testimonials"
 msgstr ""
 
@@ -538,6 +538,10 @@ msgstr ""
 msgid "← Back to Insurance Categories"
 msgstr ""
 
+#: functions/theme.php:71
+msgid "Image Dimensions:"
+msgstr ""
+
 #: header.php:39
 msgid "Call now"
 msgstr ""
@@ -555,22 +559,55 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: includes/class-isp-wpmu-site.php:74
+#: includes/class-isp-wpmu-site.php:75
 msgid "About"
 msgstr ""
 
-#: includes/class-isp-wpmu-site.php:79
+#: includes/class-isp-wpmu-site.php:81
 msgid "Products"
 msgstr ""
 
-#: includes/class-isp-wpmu-site.php:94
+#: includes/class-isp-wpmu-site.php:99
 msgid "Blog"
 msgstr ""
 
-#: includes/class-isp-wpmu-site.php:99
+#: includes/class-isp-wpmu-site.php:105
 msgid "Contact"
 msgstr ""
 
-#: includes/class-isp-wpmu-site.php:106
+#: includes/class-isp-wpmu-site.php:115
+msgid "Short Contact Form"
+msgstr ""
+
+#: includes/class-isp-wpmu-site.php:119 includes/class-isp-wpmu-site.php:120
+msgid "Name"
+msgstr ""
+
+#: includes/class-isp-wpmu-site.php:125 includes/class-isp-wpmu-site.php:126
+msgid "Phone"
+msgstr ""
+
+#: includes/class-isp-wpmu-site.php:130 includes/class-isp-wpmu-site.php:131
+msgid "Email"
+msgstr ""
+
+#: includes/class-isp-wpmu-site.php:141
 msgid "Primary Menu"
+msgstr ""
+
+#: includes/class-isp-wpmu-site.php:146
+msgid "Footer Menu"
+msgstr ""
+
+#: includes/class-isp-wpmu-site.php:163
+msgid "Personal Area"
+msgstr ""
+
+#: includes/class-isp-wpmu-site.php:387
+#, php-format
+msgid "New message from \"%s\""
+msgstr ""
+
+#: includes/class-isp-wpmu-site.php:398
+msgid "Send"
 msgstr ""

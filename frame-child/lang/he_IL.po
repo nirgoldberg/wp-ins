@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: isp 1.0.0\n"
-"POT-Creation-Date: 2019-09-19 16:07+0300\n"
-"PO-Revision-Date: 2019-09-19 16:08+0300\n"
+"POT-Creation-Date: 2019-09-22 05:54+0300\n"
+"PO-Revision-Date: 2019-09-22 05:54+0300\n"
 "Last-Translator: Nir Goldberg <nir@htmline.com>\n"
 "Language-Team: Nir Goldberg <nir@htmline.com>\n"
 "Language: he_IL\n"
@@ -216,7 +216,7 @@ msgid "Team Member updated"
 msgstr "חבר צוות עודכן"
 
 #: functions/post-types.php:171 functions/post-types.php:188
-#: includes/class-isp-wpmu-site.php:89
+#: includes/class-isp-wpmu-site.php:93
 msgid "Press"
 msgstr "פרסומים"
 
@@ -385,7 +385,7 @@ msgid "News Item updated"
 msgstr "ידיעה עודכנה"
 
 #: functions/post-types.php:301 functions/post-types.php:318
-#: includes/class-isp-wpmu-site.php:84
+#: includes/class-isp-wpmu-site.php:87
 msgid "Testimonials"
 msgstr "המלצות"
 
@@ -537,6 +537,10 @@ msgstr "לא נמצאו קטגוריות ביטוח"
 msgid "← Back to Insurance Categories"
 msgstr "→ חזרה לקטגוריות ביטוח"
 
+#: functions/theme.php:71
+msgid "Image Dimensions:"
+msgstr "מימדי תמונה:"
+
 #: header.php:39
 msgid "Call now"
 msgstr "חייגו עכשיו"
@@ -554,22 +558,55 @@ msgstr ""
 msgid "Home"
 msgstr "דף הבית"
 
-#: includes/class-isp-wpmu-site.php:74
+#: includes/class-isp-wpmu-site.php:75
 msgid "About"
 msgstr "אודות"
 
-#: includes/class-isp-wpmu-site.php:79
+#: includes/class-isp-wpmu-site.php:81
 msgid "Products"
 msgstr "תחומי פעילות"
 
-#: includes/class-isp-wpmu-site.php:94
+#: includes/class-isp-wpmu-site.php:99
 msgid "Blog"
 msgstr "בלוג"
 
-#: includes/class-isp-wpmu-site.php:99
+#: includes/class-isp-wpmu-site.php:105
 msgid "Contact"
 msgstr "יצירת קשר"
 
-#: includes/class-isp-wpmu-site.php:106
+#: includes/class-isp-wpmu-site.php:115
+msgid "Short Contact Form"
+msgstr "טופס יצירת קשר מקוצר"
+
+#: includes/class-isp-wpmu-site.php:119 includes/class-isp-wpmu-site.php:120
+msgid "Name"
+msgstr "שם"
+
+#: includes/class-isp-wpmu-site.php:125 includes/class-isp-wpmu-site.php:126
+msgid "Phone"
+msgstr "טלפון"
+
+#: includes/class-isp-wpmu-site.php:130 includes/class-isp-wpmu-site.php:131
+msgid "Email"
+msgstr "מייל"
+
+#: includes/class-isp-wpmu-site.php:141
 msgid "Primary Menu"
 msgstr "תפריט ראשי"
+
+#: includes/class-isp-wpmu-site.php:146
+msgid "Footer Menu"
+msgstr "תפריט תחתון"
+
+#: includes/class-isp-wpmu-site.php:163
+msgid "Personal Area"
+msgstr "אזור אישי"
+
+#: includes/class-isp-wpmu-site.php:387
+#, php-format
+msgid "New message from \"%s\""
+msgstr "הודעה חדשה מאתר \"%s\""
+
+#: includes/class-isp-wpmu-site.php:398
+msgid "Send"
+msgstr "שליחה"

@@ -33,7 +33,7 @@ define( 'VERSION',				$theme_version );
 define( 'TEMPLATE',				get_stylesheet_directory_uri() );
 define( 'CSS_DIR',				TEMPLATE . '/assets/css/' );
 define( 'JS_DIR',				TEMPLATE . '/assets/js/' );
-define( 'PAGE_TEMPLATE_DIR',	TEMPLATE . '/page-templates/' );
+define( 'PAGE_TEMPLATE_PATH',	'page-templates/' );
 define( 'ACF_EXISTS',			function_exists( 'get_field' ) );
 
 /**

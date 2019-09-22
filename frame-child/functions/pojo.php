@@ -168,7 +168,7 @@ function isp_pojo_register_customize_sections( $sections = array() ) {
 
 	// Widget Columns
 	$field		= array_search( 'sidebar_footer_columns', array_column( $sections[ $section ][ 'fields' ], 'id' ) );
-	$sections[ $section ][ 'fields' ][ $field ][ 'std' ]					= count( $footer_columns );
+	$sections[ $section ][ 'fields' ][ $field ][ 'std' ]					= $footer_columns ? count( $footer_columns ) : 1;
 
 	/**
 	 * Copyright
@@ -270,6 +270,12 @@ function isp_dynamic_style() {
 	$css_arr[ '.mobile-menu a:hover' ][ 'background-color']									= $first_color;
 	$css_arr[ '.mobile-menu li.current-menu-item > a'][ 'background-color' ]				= $first_color;
 	$css_arr[ '.mobile-menu li.current-menu-ancestor > a' ][ 'background-color' ]			= $first_color;
+
+	/***********************/
+	/* contact form widget */
+	/***********************/
+
+	$css_arr[ '#sidebar-footer .contact_form form .button' ][ 'background-color']			= 'one' == $scheme_type ? $second_color : $first_color;
 
 	// output the CSS
 	foreach ( $css_arr as $selector => $styles ) {
